@@ -4,55 +4,63 @@
         {
             "tag": "greeting",
             "patterns": ["Hi there","How are you", "Is anyone there?","Hey","Hola","Hello","Good day","Namaste"],
-            "response": ["Hello!", "Hi there!", "Hey! How can I help you today?", "Its good to see you"]
+            "response": ["Hello!", "Hi there!", "Hey! How can I help you today?", "Its good to see you"],
+            "context": [""]
         },
 
         {
 
             "tag": "goodbye",
             "patterns":["Bye!", "Good bye!", "See you later!","Take Care!"],
-            "response":["Goodbye!", "See you later!", "Have a great day!", "It was nice chatting with you!"]
+            "response":["Goodbye!", "See you later!", "Have a great day!", "It was nice chatting with you!"],
+            "context": [""]
 
         },
 
         {
             "tag": "thanks",
             "patterns": ["Thanks", "okay","Thank you","thankyou", "That's helpful", "Awesome, thanks", "Thanks for helping me", "wow", "great"],
-            "response": ["Happy to help!", "Any time!","You're welcome", "My pleasure"]
+            "response": ["Happy to help!", "Any time!","You're welcome", "My pleasure"],
+            "context": [""]
 
         },
 
         {
             "tag": "noanswer",
             "patterns": [""],
-            "response": ["Sorry, I didn't understand you", "Please give me more info", "Not sure I understand that"]
+            "response": ["Sorry, I didn't understand you", "Please give me more info", "Not sure I understand that"],
+            "context": [""]
 
         },
 
         {
             "tag": "need",
             "patterns": ["I need you", "All I need is you","I want you"],
-            "response": ["Yes I'm here to assist you"]
+            "response": ["Yes I'm here to assist you"],
+            "context": [""]
 
         },
 
         {
             "tag": "help",
             "patterns": ["Help", "Can you help me?", "I need assistance"],
-            "response": ["Of course! What do you need help with?", "Sure, I'm here to help. What do you need assistance with?"]
+            "response": ["Of course! What do you need help with?", "Sure, I'm here to help. What do you need assistance with?"],
+            "context": [""]
 
         },
 
         {
             "tag": "goodmorning",
             "patterns": ["Good morning", "Morning!", "Hello, how's your morning?"],
-            "response": ["Good morning! I hope you have a great day ahead.", "Morning! How can I assist you today?"]
+            "response": ["Good morning! I hope you have a great day ahead.", "Morning! How can I assist you today?"],
+            "context": [""]
         },
 
         {
             "tag": "goodnight",
             "patterns": ["Good night", "Night!", "Have a good night"],
-            "response": ["Good night! Sweet dreams.", "Sleep well!"]
+            "response": ["Good night! Sweet dreams.", "Sleep well!"],
+            "context": [""]
 
         },
 
@@ -68,7 +76,8 @@
                          "I used to be indecisive, but now I'm not so sure.",
                          "I'm on a seafood diet. I see food, and I eat it!",
                          "What do you call a fake noodle? An impasta.",
-                         "I'm writing a book on reverse psychology. Please don't buy it."]
+                         "I'm writing a book on reverse psychology. Please don't buy it."],
+            "context": [""]
         },
 
         {
@@ -79,7 +88,8 @@
             "Tell me about yourself"],
             "response":["I'm Atlas, your friendly AI assistant. I train based on your responses and getting better everyday!",
                         "I'm here to chat with you today."
-            ]
+            ],
+            "context": [""]
         },
 
         {
@@ -92,7 +102,8 @@
             ],
             "response": [
                 "Thank you!"
-            ]
+            ],
+            "context": [""]
         },
 
         {
@@ -102,7 +113,8 @@
             ],
             "responses": [
                 "I was made in 2024, if that's what you are asking!"
-            ]
+            ],
+            "context": [""]
         },
 
         {
@@ -116,13 +128,15 @@
             ],
             "responses": [
                 "I am a general purpose chatbot. I am built for engaging conversations with users and self learn by the users input. I am learning new things everyday! "
-            ]
+            ],
+            "context": [""]
         },
 
         {
             "tag": "haha",
             "patterns": ["Haha","Lol","Lmao","Thats funny"],
-            "responses": ["Glad I could make you laugh !"]
+            "responses": ["Glad I could make you laugh !"],
+            "context": [""]
         }
 
     ]
