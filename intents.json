@@ -1,0 +1,132 @@
+{
+    "intents": [
+
+        {
+            "tag": "greeting",
+            "patterns": ["Hi there","How are you", "Is anyone there?","Hey","Hola","Hello","Good day","Namaste"],
+            "response": ["Hello!", "Hi there!", "Hey! How can I help you today?", "Its good to see you"]
+        },
+
+        {
+
+            "tag": "goodbye",
+            "patterns":["Bye!", "Good bye!", "See you later!","Take Care!"],
+            "response":["Goodbye!", "See you later!", "Have a great day!", "It was nice chatting with you!"]
+
+        },
+
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "okay","Thank you","thankyou", "That's helpful", "Awesome, thanks", "Thanks for helping me", "wow", "great"],
+            "response": ["Happy to help!", "Any time!","You're welcome", "My pleasure"]
+
+        },
+
+        {
+            "tag": "noanswer",
+            "patterns": [""],
+            "response": ["Sorry, I didn't understand you", "Please give me more info", "Not sure I understand that"]
+
+        },
+
+        {
+            "tag": "need",
+            "patterns": ["I need you", "All I need is you","I want you"],
+            "response": ["Yes I'm here to assist you"]
+
+        },
+
+        {
+            "tag": "help",
+            "patterns": ["Help", "Can you help me?", "I need assistance"],
+            "response": ["Of course! What do you need help with?", "Sure, I'm here to help. What do you need assistance with?"]
+
+        },
+
+        {
+            "tag": "goodmorning",
+            "patterns": ["Good morning", "Morning!", "Hello, how's your morning?"],
+            "response": ["Good morning! I hope you have a great day ahead.", "Morning! How can I assist you today?"]
+        },
+
+        {
+            "tag": "goodnight",
+            "patterns": ["Good night", "Night!", "Have a good night"],
+            "response": ["Good night! Sweet dreams.", "Sleep well!"]
+
+        },
+
+        {
+            "tag": "jokes",
+            "patterns": [],
+            "response":["Why did the bicycle fall over? Because it was two tired!",
+                         "What do you call a lazy kangaroo?  A marsupial who just pouches around!",
+                         "Why did the scarecrow win an award? Because he was outstanding in his field!",
+                         "Why did the computer crash?  Because it couldn't handle the work load!",
+                         "What do you call a fish with no legs?  Fsh!",
+                         "What do you call a nosey pepper? Jalapeno business!",
+                         "I used to be indecisive, but now I'm not so sure.",
+                         "I'm on a seafood diet. I see food, and I eat it!",
+                         "What do you call a fake noodle? An impasta.",
+                         "I'm writing a book on reverse psychology. Please don't buy it."]
+        },
+
+        {
+            "tag": "aboutbot",
+            "patterns":["Who are you",
+            "What can you do",
+            "What is your purpose",
+            "Tell me about yourself"],
+            "response":["I'm Atlas, your friendly AI assistant. I train based on your responses and getting better everyday!",
+                        "I'm here to chat with you today."
+            ]
+        },
+
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "You are awesome",
+                "You are the best",
+                "You are great",
+                "You are good"
+            ],
+            "response": [
+                "Thank you!"
+            ]
+        },
+
+        {
+            "tag": "age",
+            "patterns": [
+                "How old are you","When were you made","What is your age"
+            ],
+            "responses": [
+                "I was made in 2024, if that's what you are asking!"
+            ]
+        },
+
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered"
+            ],
+            "responses": [
+                "I am a general purpose chatbot. I am built for engaging conversations with users and self learn by the users input. I am learning new things everyday! "
+            ]
+        },
+
+        {
+            "tag": "haha",
+            "patterns": ["Haha","Lol","Lmao","Thats funny"],
+            "responses": ["Glad I could make you laugh !"]
+        }
+
+    ]
+
+
+
+}
